@@ -1,0 +1,122 @@
+// Place all the styles related to the Viridian controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+  background-color: #fff5ee;
+}
+.top-bar {
+  width: 100%;
+  padding: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: tahoma;
+  font-style: italic;
+  background-image: url(VS_beach.JPG);
+  background-size: 100% 1100px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.w3-content{
+  margin-top: 15px !important;
+}
+#nav {
+  background-color: #40826d !important;
+}
+.slogan {
+  padding-top: 10px;
+}
+.linkage {
+  padding-top: 12px;
+}
+.blackBack {
+  background-color: black;
+}
+.sideInfo {
+  height: 180px !important;
+  background-color: #824055 !important;
+  margin-top: 20px !important;
+  color: white;
+  font-family: tahoma !important;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+.piled {
+  border-radius: 0 !important;
+  margin-top: 20px !important;
+}
+.copyright {
+  height: 30px !important;
+  font-size: 12px !important;
+  text-align: center;
+  background-color: #40826d;
+  color: white;
+}
+.shoresRight {
+  margin-top: -10px;
+}
+.skillInfo {
+  margin-top: -20px !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.skillList,.prevTech,.techno {
+  margin-top: -15px !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+.vHeader {
+  background-color: #40826d !important;
+  color: white !important;
+}
+.moveRight {
+  margin-bottom: -2px !important;
+  padding-left: 15px !important;
+}
+.dFence, .prevSkills {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.contactInfo {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  height: 350px;
+  width: 500px;
+  font-size: 30px !important;
+  color: black !important;
+}
+.contactHead {
+  padding: -10px !important;
+  margin-top: 30px !important;
+  margin-bottom: -10px !important;
+  font-size: 50px !important;
+  font-family: tahoma !important;
+  height: 90px !important;
+  text-align: center !important;
+  border-radius: 5px;
+}
+.picture {
+  height: 300px !important;
+  background-position: center !important;
+}
+.prevSkills {
+  text-align: center;
+  margin-top: 20px !important;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.space {
+  margin-top: 25px !important;
+}
+@media only screen and (max-width: 1160px) {
+    .byebye {
+        font-size: 25px;
+        // margin-right: 2px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .linkage {
+        margin-left: -7px;
+    }
+}

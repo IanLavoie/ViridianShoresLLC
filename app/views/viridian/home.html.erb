@@ -1,0 +1,75 @@
+<body>
+  <div class="blackBack">
+    <div class="w3-content w3-display-container" style="max-width:800px">
+      <img class="mySlides" src="assets/tester_pic.jpg" style="width:100%; height: 600px">
+      <img class="mySlides" src="assets/owned_heli_pic.jpg" style="width:100%; height: 600px">
+      <img class="mySlides" src="assets/metro.jpg" style="width:100%; height: 600px">
+      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+        <div class="w3-left w3-hover-text-green" onclick="plusDivs(-1)" style="padding-top: 280px; padding-bottom: 280px; height: 280px; width: 90px; margin-left: -16px;">&#10094;</div>
+        <div class="w3-right w3-hover-text-green" onclick="plusDivs(1)" style="padding-top: 280px; padding-bottom: 280px; height: 280px; width: 90px; margin-right: -16px;">&#10095;</div>
+      </div>
+    </div>
+  </div>
+  <div class="ui grid">
+    <div class="sixteen wide column"></div>
+  </div>
+  <div class="ui grid">
+    <div class="one wide column"></div>
+    <div class="homeInfo ui piled segment eleven wide column" style="z-index: 1" media="thirteen wide column 900px">
+      <h4 class="ui header">Human Systems Integration (HSI)</h4>
+      <p>The human interaction in system application and workplace design, defines the basis of the ergonomics and human factors knowledge of Viridian Shores LLC. We understand that it is an individual’s inherent human abilities and limitations in the operation of man-machine systems, that is the most important component in the overall safety viability and longevity of the system. The human operator of man-machine systems remains the most important component, and it is Viridian Shores LLC’s understanding of the relationship between people and technology which helps ensure optimal human performance.</p><div class="ui divider"></div><p>Our focus on the human operator forms the foundation of our Human Systems Integration (HSI) Division. This translates into increased system performance and reduced life cycle costs for our customers. Here at Viridian Shores LLC, our human factors experts help define user-related design interface goals, provide technical assistance and information on the man-machine interface, and perform a range of services including Scientific and Technical Consulting, and Research and Development in the Social Sciences and Humanities.</p><div class="ui divider"></div>
+      <p>Viridian Shores LLC provides engineering and programmatic support services specializing in Crew Systems integration, Workplace Safety, and Human Engineering design. <br>
+      A small business can enhance your financial advantage through high quality work for low cost.
+      </p>
+    </div>
+    <div class="one wide column"></div>
+      <div class="sideInfo ui raised segment two wide column">
+      <h2 class="byebye">Safety <br> Viablity <br> Longevity</h2>
+    </div>
+    <div class="one wide column"></div>
+  </div>
+  <script type="text/javascript">
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+       dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    x[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " w3-white";
+  }
+  </script>
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 4000);
+  }
+  </script>
+</body>

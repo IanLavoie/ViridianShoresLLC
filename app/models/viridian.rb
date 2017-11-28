@@ -1,0 +1,2 @@
+class Viridian < ApplicationRecord
+end

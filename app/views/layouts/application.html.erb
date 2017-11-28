@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ViridianShoresLLC</title>
+    <%= csrf_meta_tags %>
+    <link rel="icon" type="image/png" href="assets/Logo.png" sizes="32x32">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/dropdown.js"></script>
+    <link type="text/css"src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/dropdown.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <style>
+    .mySlides {display:none}
+    .w3-left, .w3-right, .w3-badge {cursor:pointer}
+    .w3-badge {height:13px;width:13px;padding:0}
+    </style>
+  </head>
+  <header>
+    <div class="ui grid">
+      <div class="top-bar">
+        <h1>VeridianShoresLLC</h1>
+      </div>
+      <div class="black row container" id="nav">
+        <div class="two wide column">
+          <img src="assets/Logo.svg" alt="Vitruvian man" style="height: 55px; margin-left: 15px;">
+        </div>
+        <div class="six wide column slogan">
+          <h1 class="byebye">Safety • Viability • Longevity</h1>
+        </div>
+        <div class="two wide column linkage">
+          <a href="/home"><button class="ui button">Home</button></a>
+        </div>
+        <div class="two wide column linkage">
+          <a href="/services"><button class="ui button">Services</button></a>
+        </div>
+        <div class="two wide column linkage">
+          <a href="/contact"><button class="ui button">Contact</button></a>
+        </div>
+        <div class="two wide column linkage">
+          <div class="ui white buttons">
+            <a class="ui button" href="/about">About</a>
+            <div class="ui simple dropdown icon button">
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <a class="item" href="/about"><i class="user icon"></i>Who We Are</a>
+                <a class="item" href="/skills"><i class="cogs icon"></i>Technical Experience</a>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <body>
+    </div>    <%= yield %>
+  </body>
+  <footer>
+    <div class="ui grid">
+      <div class="sixteen wide column"></div>
+    </div>
+    <div class="ui grid copyright">
+      <div class="four wide column"></div>
+      <div class="eight wide column shoresRight"><p>&copy; 2017 VIRIDIAN SHORES LLC. All Rights Reserved</p></div>
+      <div class="four wide column"></div>
+    </div>
+  </footer>
+</html>
