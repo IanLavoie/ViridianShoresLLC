@@ -27,3 +27,8 @@
 .byebug_history
 secrets.yml
 _DEV/*
+
+# == ignore secrets and env variables
+config/local_env.yml
+config/secrets.yml
+.env
