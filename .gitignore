@@ -22,4 +22,8 @@
 
 .byebug_history
 
+/node_modules
+/yarn-error.log
+.byebug_history
 secrets.yml
+_DEV/*
