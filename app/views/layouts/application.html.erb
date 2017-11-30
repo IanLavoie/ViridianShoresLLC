@@ -14,7 +14,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= link_to 'Photos', photos_path %>
-    <%= link_to 'Upload Your Photo', new_photo_path %>    
+    <%= link_to 'Upload Your Photo', new_photo_path %>
     <style>
     .mySlides {display:none}
     .w3-left, .w3-right, .w3-badge {cursor:pointer}
@@ -74,6 +74,14 @@
       <div class="four wide column"></div>
     </div>
   </footer>
+  <!-- == alert container == -->
+        <div class="container">
+          <% flash.each do |key, value| %>
+            <div class="alert alert-<%= key %>">
+              <%= value %>
+            </div>
+          <% end %>
+        </div>
 
 </body>
 </html>
