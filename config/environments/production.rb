@@ -3,6 +3,9 @@ Rails.application.configure do
 
   config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
+  AWS_ACCESS_KEY_ID: ENV["AWS_ACCESS_KEY_ID"]
+  AWS_SECRET_ACCESS_KEY: ENV["AWS_SECRET_ACCESS_KEY"]
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
