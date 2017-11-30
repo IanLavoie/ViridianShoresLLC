@@ -3,10 +3,10 @@ Rails.application.configure do
 
   config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
-  AWS_ACCESS_KEY_ID: ENV["AWS_ACCESS_KEY_ID"]
-  AWS_SECRET_ACCESS_KEY: ENV["AWS_SECRET_ACCESS_KEY"]
-  S3_BUCKET_NAME: ENV["ians-prod"]
-  S3_REGION: ENV["us-east-1"]
+  AWS_ACCESS_KEY_ID = ENV["AWS_ACCESS_KEY_ID"]
+  AWS_SECRET_ACCESS_KEY = ENV["AWS_SECRET_ACCESS_KEY"]
+  S3_BUCKET_NAME = ENV["ians-prod"]
+  S3_REGION = ENV["us-east-1"]
 
 
   # Code is not reloaded between requests.
