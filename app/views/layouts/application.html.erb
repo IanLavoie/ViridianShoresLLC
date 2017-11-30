@@ -19,6 +19,8 @@
     .w3-badge {height:13px;width:13px;padding:0}
     </style>
   </head>
+
+  <body>
   <header>
     <div class="ui grid">
       <div class="top-bar">
@@ -57,9 +59,9 @@
       </div>
     </div>
   </header>
-  <body>
-    </div>    <%= yield %>
-  </body>
+    <div>
+      <%= yield %>
+    </div>
   <footer>
     <div class="ui grid">
       <div class="sixteen wide column"></div>
@@ -70,4 +72,6 @@
       <div class="four wide column"></div>
     </div>
   </footer>
+
+</body>
 </html>
