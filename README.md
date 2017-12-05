@@ -1,24 +1,18 @@
-# README
+<h1>ViridianShoresLLC</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This site is used for human systems integrations and showing off what can be done, and what has been done from their past experiences
 
-Things you may want to cover:
+<h2>Why I made this site with Ruby on Rails:</h2>
 
-* Ruby version
+I used Ruby on Rails for future changes in company like adding possible employees and them being able to log in and view their work
 
-* System dependencies
+You can view the site through heroku here - Viridianshores.herokuapp.com
 
-* Configuration
+<h2>As of right now the main focus for this site was built with: <br></h2>
+<ul>
+<li><a href="semantic-ui.com">Semanticu UI</a> <br></li>
+<li>HTML5<br></li>
+  <li>CSS<br></li>
+  <li>Javascript</li>
+</ul>
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
